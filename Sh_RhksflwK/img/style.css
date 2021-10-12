@@ -1,0 +1,82 @@
+<!--기본 -->
+td { font-family: "돋움", "Arial"; font-size: 12px; color: #535353; line-height: 17px;}
+
+body, table, iframe 
+{  scrollbar-3dlight-color:8B8B8B; 
+	scrollbar-arrow-color:8B8B8B; 
+	scrollbar-base-color:EFEFEF; 
+	scrollbar-darkshadow-color:FFFFFF; 
+	scrollbar-face-olor:8B8B8BF; 
+	scrollbar-highlight-color:FFFFF; 
+	scrollbar-shadow-color:8B8B8B
+	}
+
+<!--링크관련 -->
+A:link { text-decoration: none; color: #3D3D3D; } 
+A:visited { text-decoration: none; color: #3D3D3D; }
+A:hover { text-decoration:none; color: #3D3D3D; } 
+A:active {text-decoration:none; color: #3D3D3D; }
+
+.menu_link {font-size:9pt;color:#535353;text-decoration:none;}
+
+
+
+<!--폼관련 css -->
+select { background-color:white;border:1 solid #ffffff ; font-family: "돋움", "Arial"; font-size: 8pt; color: #535353}
+.input01{ background-color:white; font-family: "돋움", "Arial"; font-size: 9pt; color: #535353; BORDER: solid 1px; border-color: #669acc; padding-left : 5; } 
+.input02{ background-color:white; font-family: "돋움", "Arial"; font-size: 9pt; color: #535353; BORDER: solid 1px; border-color: white; padding: 5; line-height: 16px;} 
+
+<!--게시판 윗쪽 색상바 -->
+.board_topline{ background-color:#748EA8 }
+
+
+<!--게시판의 '제목, 작성자'등과 같은 타이틀바 -->
+.board_bg_title { background-color:#F7F7F7; font-family: "돋움", "Arial"; font-size: 12px; color: #535353; font-weight: bold; }
+.board_bg_contents { background-color:#fafbfd; font-family: "돋움", "Arial"; font-size: 12px; color: #000000; font-weight: bold; }
+
+<!--게시판의 경계를 지어주는 라인 -->
+.board_line2 { background-image:   url(line01.gif); background-repeat: repeat}
+.board_line { background-color:#C5C5C5 }
+
+<!--게시판 리스트의 줄나누는 라인-도트라인 혹은 선으로 된 라인 -->
+.data_line2 { background-image:   url(line01.gif); background-repeat: repeat}
+.faq_line2 { background-image:   url(line01.gif); background-repeat: repeat}
+.news_notice_line2 { background-image:   url(line01.gif); background-repeat: repeat}
+.qna_line2 { background-image:   url(line01.gif); background-repeat: repeat}
+
+<!--결과 라인 -->
+.result_line { background-color:#e3e3e3 }
+.result_text { font-family: "돋움", "Arial";color: #823180; line-height: 14px; letter-spacing : -1; padding-top: 2; }
+
+<!--메뉴텍스트 -->
+.menu_on {FONT-WEIGHT: bold; ; COLOR: #FFFFFF; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; LETTER-SPACING: -0.04em}
+
+
+.menu_off {FONT-WEIGHT: bold; font-size:9pt;color:#cccccc;text-decoration:none;}
+a.menu_off:link{FONT-WEIGHT: bold; color:#cccccc;text-decoration:none;}
+a.menu_off:visited{ FONT-WEIGHT: bold;color:#cccccc;text-decoration:none;}
+a.menu_off:hover{ FONT-WEIGHT: bold;color:#cccccc;text-decoration:none;}
+
+<!--타이틀 -->	
+.txt_title {FONT-WEIGHT: bold; FONT-SIZE: 14px; ; COLOR: #1f516f; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; }
+
+<!--페이지타이틀 관련 -->	
+.admin_subject {FONT-WEIGHT: bold ; COLOR: #FFFFFF;  FONT-FAMILY: 돋움; LETTER-SPACING: -0.04em; font-size: 14px; }
+.adminsub_subject {FONT-WEIGHT: bold ; COLOR: #fe5a00; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; LETTER-SPACING: -0.04em}
+.admin_outline {  background-color:#318acc; border:solid; border-color:#20679c #20679c #20679c #20679c; border-width:1px 1px 1px 1px;}
+.adminsub_outline {  background-color:#fcfcf2; border:solid; border-color:#ecbd8f #ecbd8f #ecbd8f #ecbd8f; border-width:1px 1px 1px 1px;}
+	
+<!--테이블 관련 -->	
+.table_outline {  background-color:#ffffff; border:solid; border-color:#cedfef #cedfef #cedfef #cedfef; border-width:3px 3px 3px 3px;}
+.table_bg_title { background-color:#e9f2f9; font-family: "돋움", "Arial"; font-size: 12px; color: #000000; font-weight: bold; }
+.read_outline {  background-color:#ffffff; border:solid; border-color:#cfdfee #cfdfee #cfdfee #cfdfee; border-width:1px 1px 1px 1px;}
+
+.popup_outline {  background-color:#ffffff; border:solid; border-color:#cfdfee #cfdfee #cfdfee #cfdfee; border-width:1px 1px 1px 1px;}
+
+
+.bluesky {COLOR: #0170db; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; }
+.black {COLOR: #000000; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; }
+.white {FONT-WEIGHT: bold ; COLOR: #FFFFFF; LINE-HEIGHT: 1.5; FONT-FAMILY: 돋움; }
+
+.bold:link, .bold:active, .bold:visited	{text-decoration:none; }
+.bold:hover	{ text-decoration:none;font-weight:bold; }
